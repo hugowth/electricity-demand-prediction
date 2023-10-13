@@ -37,11 +37,12 @@ flask cmd import_weather_data
 ```
 
 ```bash
-# Import electricity demand data from csv file
+# Import electricity demand data
 flask cmd import_electron_data
 ```
 
 ```bash
+# First, import weather data and electricity demand data
 # Electricity demand prediction
 flask cmd electricity_demand_forecast
 ```
