@@ -47,3 +47,7 @@ flask cmd import_electron_data
 flask cmd electricity_demand_forecast
 ```
 
+### Testing
+```bash
+python -m unittest
+```
